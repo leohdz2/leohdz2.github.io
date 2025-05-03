@@ -1,9 +1,4 @@
-.content.lateral{
-    border: solid rgb(248, 252, 6) 3px;
-    display: flex;
-    align-items: self-start;
-    justify-content: center;
-}
+
 
 
 
@@ -14,6 +9,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    
 }
 
 #content {
@@ -25,12 +21,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+    
+    
 }
 
 #sec {
-    border: solid rgb(196, 133, 24) 3px;
+    border: solid rgb(80, 9, 247) 3px;
     display: flex;
     width: 100%; /* Ocupa todo el ancho disponible inicialmente */
+    float: left;
 }
 
 /* Estilos del aside (barra lateral) */
@@ -130,7 +129,7 @@ p.asode__footer.txt {
 }
 
 /* Estilos de la sección de información general */
-section.infi__general {
+.infi__general {
     padding: 20px;
     flex-grow: 1; /* Ocupa el espacio restante */
 }
@@ -260,5 +259,6 @@ spam.blue {
         font-size: 1.2em;
         width: 35px;
         height: 35px;
+        
     }
 }
